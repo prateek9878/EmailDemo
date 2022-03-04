@@ -1,0 +1,8 @@
+com\demo\testCases\TestCase_01.class
+com\demo\pageconstants\LoginPageConstants.class
+com\demo\pageobjects\LoginPageObjects.class
+com\demo\pageconstants\InboxPageContants.class
+com\demo\testCases\TestDemo.class
+com\demo\testCases\AbstractTest.class
+com\demo\testCases\TestBase.class
+com\demo\pageobjects\InboxPageObjects.class

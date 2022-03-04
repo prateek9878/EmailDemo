@@ -1,0 +1,174 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.838 sec <<< FAILURE! - in TestSuite
+TC01(com.demo.testCases.TestCase_01)  Time elapsed: 2.809 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Maintenance is overdue] but found [? March 4th and Earn with 4 New Tokens!],
+	expected [The scheduled maintenance abcd of vehicle 123456007-02, 021, 2020, 345457677 is overdue.] but found [If you read the subject of this email and glanced at your calendar, our job is 50% done. The other 50% of our job is to let you know that there are 4 new tokens available for subscription on Earn!
+
+
+
+The 4 tokens — BNB, XLM, KSM and DOGE — are literally within reach right now, so all you have to do is march forth this March 4th (pun intended) to the Earn tab on the Coinhako website or app to subscribe.
+
+
+
+If there are other tokens you’d like to see on Earn, come forth and drop us a comment on FB and IG, or tweet us at @coinhako to let us know.
+
+
+
+Disclaimer: Cryptocurrency trading comes with risks that include volatile markets, flash crashes and cybersecurity risks. Users should research extensively into each individual cryptocurrency and its platform before trading.
+
+
+
+
+Learn about Coinhako Earn
+® 2021 Coinhako. All Rights Reserved.
+Unsubscribe]
+	at com.demo.testCases.TestCase_01.TC01(TestCase_01.java:33)
+
+TC01(com.demo.testCases.TestCase_01)  Time elapsed: 4.141 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Your return, your way.
+You have 30 days to ship or return your item in-Club.
+Thank you for shopping at BJ’s.com.
+If your item(s) are not received within 30 days, the Return Authorization will be automatically canceled and you will need to contact us to obtain a valid Return Authorization before returning your item.
+Please note:
+• Item(s) being returned must meet Proper Conditions for Return and Credit as explained in our BJs.com Return Policy.
+• You will not be charged for return shipping if the returned item(s) were mis-shipped, or are damaged or defective
+• You will be charged actual return shipping fees if the item(s) you are returning are non?defective or undamaged, or if you chose not to keep an item you ordered
+• You can avoid return shipping charges by returning BJs.com purchases in?Club
+• Be aware that, in certain cases, returning items may change or void discounts currently appearing on your order receipt
+• Once we receive and process your return, we will send you an email notifying you that your credit has been issued. If you choose to return BJs.com merchandise in?Club, you will receive an email or a receipt confirming your return credit.
+Return Refund Summary Manage Orders
+Shipping Address
+Prateek prateek
+6102 SHOPS WAY
+
+Northborough, MA, 01532,
+  Order Number
+#17465212
+  Order Date
+03-03-2022
+  Return Order #: R208851518
+Amount to be Refunded: $135.61
+  Payment Method
+Buy Now, Pay Later
+Visa ****1111
+  Subtotal Refund $117.88
+Total Discount Recovered -$0.00
+Shipping Refund $13.97
+Total Other Charges Refund $0.00
+Tax Refund $7.16
+Return Shipping $0.00
+Total $135.61
+Buy Now, Pay Later $102.81
+CREDIT CARD $32.80
+Returning
+  Herbal Essences bio:renew Argan Oil of Morocco Conditioner, 29.2 Fl Oz
+$9.99
+Quantity: 4
+Item: 102459
+Delivery Option
+Shipping
+  Herbal Essences bio:renew Argan Oil of Morocco Shampoo, 29.2 fl. oz.
+$9.99
+Quantity: 3
+Item: 102520
+Delivery Option
+Shipping
+  Ticonderoga #2 Sharpened Pencil, 72 ct.
+$9.99
+Quantity: 3
+Item: 709093
+Delivery Option
+Shipping
+  Pantene Pro-V Daily Moisture Renewal Hydrating Shampoo, 38.2 fl. oz.
+$8.99
+Quantity: 2
+Item: 88529
+Delivery Option
+Shipping
+Maybe you'd like these instead
+Have questions?
+CONTACT US
+Download the BJ's Wholesale Club App
+  Availability and pricing may change and vary by Club or BJs.com. No rain checks. Tax may be charged on pre?discounted price by law. While BJ's tries to ensure that listed prices are accurate, BJ's is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.
+Important Online Security Information: We want to ensure the online protection of your personal account information. Please note the following precautions:
+We will not ask you to submit personal or account information via email.
+If you ever receive an email that appears to be from us asking for personal information such as your account number or Social Security Number, do not respond directly to the email.
+Please notify us immediately by calling us at 800?BJS?CLUB (800?257?2582).
+© 2022 BJ's Wholesale Club, Inc.] but found [Your return, your way.
+You have 30 days to ship or return your item in-Club.
+Thank you for shopping at BJ’s.com.
+If your item(s) are not received within 30 days, the Return Authorization will be automatically canceled and you will need to contact us to obtain a valid Return Authorization before returning your item.
+Please note:
+• Item(s) being returned must meet Proper Conditions for Return and Credit as explained in our BJs.com Return Policy.
+• You will not be charged for return shipping if the returned item(s) were mis-shipped, or are damaged or defective
+• You will be charged actual return shipping fees if the item(s) you are returning are non?defective or undamaged, or if you chose not to keep an item you ordered
+• You can avoid return shipping charges by returning BJs.com purchases in?Club
+• Be aware that, in certain cases, returning items may change or void discounts currently appearing on your order receipt
+• Once we receive and process your return, we will send you an email notifying you that your credit has been issued. If you choose to return BJs.com merchandise in?Club, you will receive an email or a receipt confirming your return credit.
+Return Refund Summary Manage Orders
+Shipping Address
+Prateek prateek
+6102 SHOPS WAY
+
+Northborough, MA, 01532,
+  Order Number
+#17465212
+  Order Date
+03-03-2022
+  Return Order #: R208851518
+Amount to be Refunded: $135.61
+  Payment Method
+Buy Now, Pay Later
+Visa ****1111
+  Subtotal Refund $117.88
+Total Discount Recovered -$0.00
+Shipping Refund $13.97
+Total Other Charges Refund $0.00
+Tax Refund $7.16
+Return Shipping $0.00
+Total $135.61
+Buy Now, Pay Later $102.81
+CREDIT CARD $32.80
+Returning
+  Herbal Essences bio:renew Argan Oil of Morocco Conditioner, 29.2 Fl Oz
+$9.99
+Quantity: 4
+Item: 102459
+Delivery Option
+Shipping
+  Herbal Essences bio:renew Argan Oil of Morocco Shampoo, 29.2 fl. oz.
+$9.99
+Quantity: 3
+Item: 102520
+Delivery Option
+Shipping
+  Ticonderoga #2 Sharpened Pencil, 72 ct.
+$9.99
+Quantity: 3
+Item: 709093
+Delivery Option
+Shipping
+  Pantene Pro-V Daily Moisture Renewal Hydrating Shampoo, 38.2 fl. oz.
+$8.99
+Quantity: 2
+Item: 88529
+Delivery Option
+Shipping
+Maybe you'd like these instead
+Have questions?
+CONTACT US
+Download the BJ's Wholesale Club App
+  Availability and pricing may change and vary by Club or BJs.com. No rain checks. Tax may be charged on pre?discounted price by law. While BJ's tries to ensure that listed prices are accurate, BJ's is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.
+Important Online Security Information: We want to ensure the online protection of your personal account information. Please note the following precautions:
+We will not ask you to submit personal or account information via email.
+If you ever receive an email that appears to be from us asking for personal information such as your account number or Social Security Number, do not respond directly to the email.
+Please notify us immediately by calling us at 800?BJS?CLUB (800?257?2582).
+© 2022 BJ's Wholesale Club, Inc.]
+	at com.demo.testCases.TestCase_01.TC01(TestCase_01.java:33)
+

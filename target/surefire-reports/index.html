@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Prateek's\Eclipse workspace\EmailDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.testCases.TestCase_01" hash-for-method="TC01(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your wa...)">TC01(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your wa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.testCases.TestCase_01" hash-for-method="TC01(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02...)">TC01(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demo.testCases.TestCase_01" hash-for-method="TC01(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT ...)">TC01(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demo.testCases.TestCase_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your wa...)">
+                  </a> <!-- TC01(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your wa...) -->
+                  <span class="method-name">TC01</span>
+                  <span class="parameters">(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your way.
+You have 30 days to ship or return your item in-Club.
+Thank you for shopping at BJ’s.com.
+If your item(s) are not received within 30 days, the Return Authorization will be automatically canceled and you will need to contact us to obtain a valid Return Authorization before returning your item.
+Please note:
+• Item(s) being returned must meet Proper Conditions for Return and Credit as explained in our BJs.com Return Policy.
+• You will not be charged for return shipping if the returned item(s) were mis-shipped, or are damaged or defective
+• You will be charged actual return shipping fees if the item(s) you are returning are non?defective or undamaged, or if you chose not to keep an item you ordered
+• You can avoid return shipping charges by returning BJs.com purchases in?Club
+• Be aware that, in certain cases, returning items may change or void discounts currently appearing on your order receipt
+• Once we receive and process your return, we will send you an email notifying you that your credit has been issued. If you choose to return BJs.com merchandise in?Club, you will receive an email or a receipt confirming your return credit.
+Return Refund Summary Manage Orders
+Shipping Address
+Prateek prateek
+6102 SHOPS WAY
+
+Northborough, MA, 01532,
+  Order Number
+#17465212
+  Order Date
+03-03-2022
+  Return Order #: R208851518
+Amount to be Refunded: $135.61
+  Payment Method
+Buy Now, Pay Later
+Visa ****1111
+  Subtotal Refund $117.88
+Total Discount Recovered -$0.00
+Shipping Refund $13.97
+Total Other Charges Refund $0.00
+Tax Refund $7.16
+Return Shipping $0.00
+Total $135.61
+Buy Now, Pay Later $102.81
+CREDIT CARD $32.80
+Returning
+  Herbal Essences bio:renew Argan Oil of Morocco Conditioner, 29.2 Fl Oz
+$9.99
+Quantity: 4
+Item: 102459
+Delivery Option
+Shipping
+  Herbal Essences bio:renew Argan Oil of Morocco Shampoo, 29.2 fl. oz.
+$9.99
+Quantity: 3
+Item: 102520
+Delivery Option
+Shipping
+  Ticonderoga #2 Sharpened Pencil, 72 ct.
+$9.99
+Quantity: 3
+Item: 709093
+Delivery Option
+Shipping
+  Pantene Pro-V Daily Moisture Renewal Hydrating Shampoo, 38.2 fl. oz.
+$8.99
+Quantity: 2
+Item: 88529
+Delivery Option
+Shipping
+Maybe you'd like these instead
+Have questions?
+CONTACT US
+Download the BJ's Wholesale Club App
+  Availability and pricing may change and vary by Club or BJs.com. No rain checks. Tax may be charged on pre?discounted price by law. While BJ's tries to ensure that listed prices are accurate, BJ's is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.
+Important Online Security Information: We want to ensure the online protection of your personal account information. Please note the following precautions:
+We will not ask you to submit personal or account information via email.
+If you ever receive an email that appears to be from us asking for personal information such as your account number or Social Security Number, do not respond directly to the email.
+Please notify us immediately by calling us at 800?BJS?CLUB (800?257?2582).
+© 2022 BJ's Wholesale Club, Inc.)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Your return, your way.
+You have 30 days to ship or return your item in-Club.
+Thank you for shopping at BJ’s.com.
+If your item(s) are not received within 30 days, the Return Authorization will be automatically canceled and you will need to contact us to obtain a valid Return Authorization before returning your item.
+Please note:
+• Item(s) being returned must meet Proper Conditions for Return and Credit as explained in our BJs.com Return Policy.
+• You will not be charged for return shipping if the returned item(s) were mis-shipped, or are damaged or defective
+• You will be charged actual return shipping fees if the item(s) you are returning are non?defective or undamaged, or if you chose not to keep an item you ordered
+• You can avoid return shipping charges by returning BJs.com purchases in?Club
+• Be aware that, in certain cases, returning items may change or void discounts currently appearing on your order receipt
+• Once we receive and process your return, we will send you an email notifying you that your credit has been issued. If you choose to return BJs.com merchandise in?Club, you will receive an email or a receipt confirming your return credit.
+Return Refund Summary Manage Orders
+Shipping Address
+Prateek prateek
+6102 SHOPS WAY
+
+Northborough, MA, 01532,
+  Order Number
+#17465212
+  Order Date
+03-03-2022
+  Return Order #: R208851518
+Amount to be Refunded: $135.61
+  Payment Method
+Buy Now, Pay Later
+Visa ****1111
+  Subtotal Refund $117.88
+Total Discount Recovered -$0.00
+Shipping Refund $13.97
+Total Other Charges Refund $0.00
+Tax Refund $7.16
+Return Shipping $0.00
+Total $135.61
+Buy Now, Pay Later $102.81
+CREDIT CARD $32.80
+Returning
+  Herbal Essences bio:renew Argan Oil of Morocco Conditioner, 29.2 Fl Oz
+$9.99
+Quantity: 4
+Item: 102459
+Delivery Option
+Shipping
+  Herbal Essences bio:renew Argan Oil of Morocco Shampoo, 29.2 fl. oz.
+$9.99
+Quantity: 3
+Item: 102520
+Delivery Option
+Shipping
+  Ticonderoga #2 Sharpened Pencil, 72 ct.
+$9.99
+Quantity: 3
+Item: 709093
+Delivery Option
+Shipping
+  Pantene Pro-V Daily Moisture Renewal Hydrating Shampoo, 38.2 fl. oz.
+$8.99
+Quantity: 2
+Item: 88529
+Delivery Option
+Shipping
+Maybe you&apos;d like these instead
+Have questions?
+CONTACT US
+Download the BJ&apos;s Wholesale Club App
+  Availability and pricing may change and vary by Club or BJs.com. No rain checks. Tax may be charged on pre?discounted price by law. While BJ&apos;s tries to ensure that listed prices are accurate, BJ&apos;s is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.
+Important Online Security Information: We want to ensure the online protection of your personal account information. Please note the following precautions:
+We will not ask you to submit personal or account information via email.
+If you ever receive an email that appears to be from us asking for personal information such as your account number or Social Security Number, do not respond directly to the email.
+Please notify us immediately by calling us at 800?BJS?CLUB (800?257?2582).
+© 2022 BJ&apos;s Wholesale Club, Inc.] but found [Your return, your way.
+You have 30 days to ship or return your item in-Club.
+Thank you for shopping at BJ’s.com.
+If your item(s) are not received within 30 days, the Return Authorization will be automatically canceled and you will need to contact us to obtain a valid Return Authorization before returning your item.
+Please note:
+• Item(s) being returned must meet Proper Conditions for Return and Credit as explained in our BJs.com Return Policy.
+• You will not be charged for return shipping if the returned item(s) were mis-shipped, or are damaged or defective
+• You will be charged actual return shipping fees if the item(s) you are returning are non‑defective or undamaged, or if you chose not to keep an item you ordered
+• You can avoid return shipping charges by returning BJs.com purchases in‑Club
+• Be aware that, in certain cases, returning items may change or void discounts currently appearing on your order receipt
+• Once we receive and process your return, we will send you an email notifying you that your credit has been issued. If you choose to return BJs.com merchandise in‑Club, you will receive an email or a receipt confirming your return credit.
+Return Refund Summary Manage Orders
+Shipping Address
+Prateek prateek
+6102 SHOPS WAY
+
+Northborough, MA, 01532,
+  Order Number
+#17465212
+  Order Date
+03-03-2022
+  Return Order #: R208851518
+Amount to be Refunded: $135.61
+  Payment Method
+Buy Now, Pay Later
+Visa ****1111
+  Subtotal Refund $117.88
+Total Discount Recovered -$0.00
+Shipping Refund $13.97
+Total Other Charges Refund $0.00
+Tax Refund $7.16
+Return Shipping $0.00
+Total $135.61
+Buy Now, Pay Later $102.81
+CREDIT CARD $32.80
+Returning
+  Herbal Essences bio:renew Argan Oil of Morocco Conditioner, 29.2 Fl Oz
+$9.99
+Quantity: 4
+Item: 102459
+Delivery Option
+Shipping
+  Herbal Essences bio:renew Argan Oil of Morocco Shampoo, 29.2 fl. oz.
+$9.99
+Quantity: 3
+Item: 102520
+Delivery Option
+Shipping
+  Ticonderoga #2 Sharpened Pencil, 72 ct.
+$9.99
+Quantity: 3
+Item: 709093
+Delivery Option
+Shipping
+  Pantene Pro-V Daily Moisture Renewal Hydrating Shampoo, 38.2 fl. oz.
+$8.99
+Quantity: 2
+Item: 88529
+Delivery Option
+Shipping
+Maybe you&apos;d like these instead
+Have questions?
+CONTACT US
+Download the BJ&apos;s Wholesale Club App
+  Availability and pricing may change and vary by Club or BJs.com. No rain checks. Tax may be charged on pre‑discounted price by law. While BJ&apos;s tries to ensure that listed prices are accurate, BJ&apos;s is not responsible for typographical or printing errors. Product names and other trademarks are the property of the respective trademark holders.
+Important Online Security Information: We want to ensure the online protection of your personal account information. Please note the following precautions:
+We will not ask you to submit personal or account information via email.
+If you ever receive an email that appears to be from us asking for personal information such as your account number or Social Security Number, do not respond directly to the email.
+Please notify us immediately by calling us at 800‑BJS‑CLUB (800‑257‑2582).
+© 2022 BJ&apos;s Wholesale Club, Inc.]
+	at com.demo.testCases.TestCase_01.TC01(TestCase_01.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02...)">
+                  </a> <!-- TC01(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02...) -->
+                  <span class="method-name">TC01</span>
+                  <span class="parameters">(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02, 021, 2020, 345457677 is overdue.)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Maintenance is overdue] but found [🚀 March 4th and Earn with 4 New Tokens!],
+	expected [The scheduled maintenance abcd of vehicle 123456007-02, 021, 2020, 345457677 is overdue.] but found [If you read the subject of this email and glanced at your calendar, our job is 50% done. The other 50% of our job is to let you know that there are 4 new tokens available for subscription on Earn!
+
+
+
+The 4 tokens — BNB, XLM, KSM and DOGE — are literally within reach right now, so all you have to do is march forth this March 4th (pun intended) to the Earn tab on the Coinhako website or app to subscribe.
+
+
+
+If there are other tokens you’d like to see on Earn, come forth and drop us a comment on FB and IG, or tweet us at @coinhako to let us know.
+
+
+
+Disclaimer: Cryptocurrency trading comes with risks that include volatile markets, flash crashes and cybersecurity risks. Users should research extensively into each individual cryptocurrency and its platform before trading.
+
+
+
+
+Learn about Coinhako Earn
+® 2021 Coinhako. All Rights Reserved.
+Unsubscribe]
+	at com.demo.testCases.TestCase_01.TC01(TestCase_01.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.testCases.TestCase_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT ...)">
+                  </a> <!-- TC01(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT ...) -->
+                  <span class="method-name">TC01</span>
+                  <span class="parameters">(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT Centre for Future Skills Excellence, Celebrating International Women’s Day, MIT Centre for Future Skills Excellence (MIT-FuSE), MIT Art, Design and Technology University, Pune, India brings together the world's top tech Women influencers leading the exponential technology domain and raising awareness on trending hot topics such as blockchain technology, data science, AI & ML, cyber security, digital transformation, and many more.
+The International Virtual Summit (IVS WFET) is dedicated to addressing concerns, sharing information, and ways to make improvements in the skills and learning space, in order to assist firms in developing a future-ready strategy for the common benefit of global workplaces, as well as challenges in computing technology for Generation Z.
+Don't miss out on the chance to listen to the Global Tech Experts Sharing their Expertise on Important Topics like
+Why attend International Virtual Summit?
+Leadership & Networking Opportunities
+Insightsful TechTalks
+Collaborations & Advance Learning
+Keynotes on Trending #FutureSkills
+Blockchain Powered Certification
+for Successful Participation
+Want to Advance Your CAREER, Join #MITFutureSkills today!
+Book Your Free Virtual Seat Now
+Bringing together
+Students | Graduate | Research Scholars | Startup Enthusiasts | Career Aspirants
+OUR ESTEEMED MENTORS & SPEAKERS
+Further speakers will be announced soon...
+Let’s be a part of the Technology Revolution and build a dynamic future for ourselves and for the nation!
+Register Now
+https://mitfutureskills.org upskill@mitfutureskills.org +91 7066995599
+Unsubscribe
+  To Unsubscribe Click here
+  )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Prateek's\Eclipse workspace\EmailDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.testCases.TestCase_01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC01')
+data.setCell(0, 2, 'com.demo.testCases.TestCase_01')
+data.setCell(0, 3, 4141);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC01')
+data.setCell(1, 2, 'com.demo.testCases.TestCase_01')
+data.setCell(1, 3, 3470);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC01')
+data.setCell(2, 2, 'com.demo.testCases.TestCase_01')
+data.setCell(2, 3, 2793);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.testCases.TestCase_01</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">7087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01(prateek123@dummy.com, Maintenance is overdue, The scheduled maintenance abcd of vehicle 123456007-02...)</span>
+                <span class="method-start">7103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">9912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01(prateek456@dummy.com, Your return request has been received on Order #17465212, Your return, your wa...)</span>
+                <span class="method-start">9920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">14061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01(shubham123@YOPmail.com, The wait is over, the 2nd International Virtual Summit is almosthere! | MIT ...)</span>
+                <span class="method-start">14061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">14061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">17531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17541 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
